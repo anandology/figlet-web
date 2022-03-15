@@ -37,9 +37,19 @@
     .try {
         white-space: pre-line;
     }
+    .header {
+        padding: 20px 20px 0px 20px;
+        background: #222;
+        color: #aaa;
+        font-size: 1.5em;
+    }
   </style>
 </head>
 <body>
+    <div class="header">
+        <strong>Figlet-web</strong>: A simple web interface to <a href="http://www.figlet.org/">Figlet</a>.
+    </div>
+
     <form method="GET">
         <div class="form-group">
             <input class="form-element" id="text" type="text" name="text" value="{{ text }}"/>
