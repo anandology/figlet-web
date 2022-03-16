@@ -1,0 +1,38 @@
+body {
+    color: green;
+    background-color: black;
+}
+form {
+    padding: 20px;
+    background: #222;
+}
+.figlet {
+    padding: 20px;
+    color: inherit;
+    background-color: black;
+}
+#text {
+    min-width: 500px;
+    background: inherit;
+    color: inherit;
+    font-size: 1.2em;
+}
+#text:focus {
+    border-color: green;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+.try {
+    white-space: pre-line;
+}
+.header {
+    padding: 20px 20px 0px 20px;
+    background: #222;
+    color: #aaa;
+    font-size: 1.5em;
+}
