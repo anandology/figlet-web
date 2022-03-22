@@ -3,7 +3,7 @@ body {
     background-color: black;
 }
 form {
-    padding: 20px;
+    padding: 20px 0px;
     background: #222;
 }
 .figlet {
@@ -30,9 +30,15 @@ a:hover {
 .try {
     white-space: pre-line;
 }
-.header {
-    padding: 20px 20px 0px 20px;
+.header-section {
+    padding: 20px;
     background: #222;
+}
+.header {
     color: #aaa;
     font-size: 1.5em;
+}
+
+.status {
+    color: #666;
 }

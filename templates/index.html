@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+    <div class="header-section">
     <div class="header">
         <strong>Figlet-web</strong>: A simple web interface to <a href="http://www.figlet.org/">Figlet</a>.
     </div>
@@ -23,9 +24,15 @@
         </div>
     </form>
 
+    <div class="status">
+        Figlet Font: {{font}}
+    </div>
+    </div>
+
     <pre class="figlet">
 $ figlet "{{text}}"
 {{ banner }}</pre>
+
     </div>
 </body>
 </html>
