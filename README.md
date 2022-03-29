@@ -51,7 +51,7 @@ $ pip install -r requirements.txt
 **Step 4:** Run the webapp
 
 ```
-$ guncorn -b 0.0.0.0:8000 webapp.py
+$ gunicorn -b 0.0.0.0:8000 webapp:app
 ...
  Listening at: http://0.0.0.0:8000
 ...
