@@ -7,7 +7,7 @@ Figlet-web is a simple web interface to the figlet command.
 ## Requirements
 
 You need have the following software installed to run this webapp.
-The instructions below assume that you using Ubuntu 20.04.
+The instructions below assume that you using Ubuntu 22.04.
 
 **figlet**
 
