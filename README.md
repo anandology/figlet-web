@@ -19,7 +19,7 @@ $ apt-get install -y figlet
 ```
 
 **Python 3**
-Python 3 is installed by default on Ubuntu 20.04.
+Python 3 is installed by default on Ubuntu 22.04.
 
 ## How to run
 
